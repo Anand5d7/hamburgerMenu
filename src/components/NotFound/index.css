@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 25vw;
+  padding: 20px;
+  padding-top: 0px;
+  margin-left: 30px;
+  margin-top: 36px;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.not-found-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.not-found-img {
+  height: 300px;
+  width: 250px;
+  margin: 0px;
+}
+.not-found-heading {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 700;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.not-found-para {
+  color: #dcdcdc;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-container {
+    width: 45vw;
+  }
+  .not-found-img {
+    width: 300px;
+    height: 350px;
+  }
+  .not-found-image-container {
+    margin-bottom: 60px;
+  }
+}

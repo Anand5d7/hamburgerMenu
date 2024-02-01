@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 25vw;
+  margin-left: 30px;
+  margin-top: 36px;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.about-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-bottom: 130px;
+}
+
+.about-mobile-image {
+  height: 300px;
+  width: 350px;
+}
+
+.about-desktop-image {
+  height: 300px;
+  width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-mobile-image {
+    display: none;
+  }
+  .about-container {
+    width: 45vw;
+  }
+  .about-image-container {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-desktop-image {
+    display: none;
+  }
+}
